@@ -4,7 +4,7 @@ Application developer from North Rhine-Westphalia, Germany, who enjoys building 
 
 ## What I do
 
-Mainly backend and application development. Did a Vue.js side project once, but feel much more comfortable on the backend side. Love working on system-level stuff and I'm interested in everything around infrastructure and automation.
+Mainly backend and application development with a strong focus on Unity3D development. From small multiplayer games to enterprise AR/VR solutions - I love working on system-level stuff and everything around infrastructure and automation.
 
 ## Tech Stack
 
@@ -12,6 +12,15 @@ Mainly backend and application development. Did a Vue.js side project once, but 
 - **Languages:** C++, C#, Python
 - **Frameworks:** Qt, WPF, Unity3D, MFC
 - **Build Systems:** CMake, NMake, QMake
+
+### Unity3D & XR Development
+- **Platforms:** Windows Desktop, Android, iOS, WebGL
+- **AR/VR:** Oculus Quest 3, AR with image markers & world anchors
+- **Specialties:** 
+  - Multiplayer networking
+  - Cross-platform AR applications for industrial machinery visualization
+  - VR meeting applications with hand tracking
+  - Mixed reality interactions
 
 ### Web Development
 - **Frontend:** Vue.js
