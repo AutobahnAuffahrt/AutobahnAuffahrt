@@ -8,23 +8,37 @@ Mainly backend and application development. Did a Vue.js side project once, but 
 
 ## Tech Stack
 
-**Languages:**
-- C++
-- C#
-- Python
+### Desktop Applications
+- **Languages:** C++, C#, Python
+- **Frameworks:** Qt, WPF, Unity3D, MFC
+- **Build Systems:** CMake, NMake, QMake
 
-**Frameworks & Tools:**
-- Vue.js (just a side project)
-- Unity3D
-- Docker
-- CI/CD
-- Proxmox
-- Nginx
-- Prometheus
-- Grafana
+### Web Development
+- **Frontend:** Vue.js
+- **Backend:** Python (Flask), OpenAPI/Swagger
+- **Server:** Nginx
+- **Package Management:** NPM
 
-**Database:**
-- PostgreSQL
+### Infrastructure & DevOps
+- **Containerization:** Docker, Docker Compose
+- **CI/CD:** GitLab Runner, GitHub Actions
+- **Virtualization:** Proxmox
+- **Cloud:** AWS (Storage), Heroku
+- **Scripting:** Bash, Linux Shell Scripts
+- **Build Tools:** Maven
+
+### Monitoring & Analytics
+- **Monitoring:** Prometheus, Check_MK, Grafana
+- **Visualization:** Grafana
+
+### Databases & Storage
+- **Relational:** PostgreSQL
+- **Time-Series:** Prometheus
+
+### Deployment & Distribution
+- **Installers:** InnoSetup
+- **Build Systems:** CMake, NMake, QMake, Maven
+- **Package Managers:** NPM
 
 ## Currently working on
 
@@ -41,18 +55,3 @@ An AI agent that I'm enriching with RAG data. Currently diving deep into the MCP
 ---
 
 *From NRW, Germany. I like direct communication and pragmatic solutions.*
-
-<!--
-**AutobahnAuffahrt/AutobahnAuffahrt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
