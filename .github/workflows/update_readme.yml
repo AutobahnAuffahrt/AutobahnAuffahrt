@@ -3,6 +3,7 @@ name: Update README with Repositories
 on:
   schedule:
     - cron: '0 0 * * *' # Runs daily at midnight
+  workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
   update-readme:
