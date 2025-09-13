@@ -5,6 +5,10 @@ on:
     - cron: '0 0 * * *' # Runs daily at midnight
   workflow_dispatch: # Allows manual triggering of the workflow
 
+# Ensure the workflow has write permission to repository contents so GITHUB_TOKEN can push
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     runs-on: self-hosted
@@ -14,6 +18,9 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y git
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        persist-credentials: true
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -29,8 +36,10 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        # Configure author locally to avoid writing to global config on self-hosted runners
+        git -C . config user.name "github-actions[bot]"
+        git -C . config user.email "github-actions[bot]@users.noreply.github.com"
         git add README.md
         git commit -m "Update README with latest repositories [skip ci]" || echo "No changes to commit"
+        # Use the credentials provided by actions/checkout (GITHUB_TOKEN) to push
         git push
