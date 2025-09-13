@@ -69,7 +69,20 @@ An AI agent that I'm enriching with RAG data. Currently diving deep into the MCP
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AutobahnAuffahrt&theme=dark)
 
 <!-- START REPO LIST -->
-<!-- The repository list will be automatically updated by the GitHub Action -->
+
+## My Repositories
+| Name | Last Updated | Link |
+|------|--------------|------|
+| AutobahnAuffahrt | 2025-09-13 | [Link](https://github.com/AutobahnAuffahrt/AutobahnAuffahrt) |
+| CansCooleAufgabe | 2022-06-27 | [Link](https://github.com/AutobahnAuffahrt/CansCooleAufgabe) |
+
+## Forked Repositories
+| Name | Last Updated | Link |
+|------|--------------|------|
+| astro-developer-portfolio-template | 2025-09-13 | [Link](https://github.com/AutobahnAuffahrt/astro-developer-portfolio-template) |
+| check-md | 2022-03-06 | [Link](https://github.com/AutobahnAuffahrt/check-md) |
+| murmur-rest | 2023-02-06 | [Link](https://github.com/AutobahnAuffahrt/murmur-rest) |
+
 <!-- END REPO LIST -->
 
 ---
